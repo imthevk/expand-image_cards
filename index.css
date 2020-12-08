@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Muli", sans-serif;
+  overflow: hidden;
+}
+.container {
+  width: 90vw;
+  display: flex;
+  border: 2px solid #333;
+}
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  flex: 0.5;
+}
+.panel h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.panel.active {
+  flex: 5;
+}
+.panel.active h3 {
+  opacity: 1;
+}
+.panel:nth-of-type(1) {
+  background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80");
+}
+.panel:nth-of-type(2) {
+  background-image: url("https://images.unsplash.com/photo-1467407629298-48b98a13a07f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+.panel:nth-of-type(3) {
+  background-image: url("https://images.unsplash.com/photo-1589389595189-ad375dcd5e29?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+.panel:nth-of-type(4) {
+  background-image: url("https://images.unsplash.com/photo-1579226305620-c69c16e3f05c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+}
+.panel:nth-of-type(5) {
+  background-image: url("https://images.unsplash.com/photo-1573196872258-41425124bf5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+.panel:nth-of-type(6) {
+  background-image: url("https://images.unsplash.com/photo-1472190649224-495422e1b602?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+}
+.panel:nth-of-type(7) {
+  background-image: url("https://images.unsplash.com/photo-1578586779319-8e4d302e9250?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
